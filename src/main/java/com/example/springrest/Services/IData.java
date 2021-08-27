@@ -6,7 +6,7 @@ import java.net.*;
 
 public class IData {
     public String getData(String username) {
-        String url = "api.github.com/users/" + username;
+        String url = "https://api.github.com/users/" + username;
 
         try {
             URL urlForGetRequest = new URL(url);
