@@ -43,7 +43,8 @@ public class MyController {
         return new IData().getData(username);
     }
 
-
-
-    
+    @GetMapping("/joke")
+    public String joke(){
+        return new IData().getJoke();
+    }
 }
