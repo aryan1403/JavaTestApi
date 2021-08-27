@@ -6,7 +6,8 @@ import java.net.*;
 
 public class IData {
     public String getData(String username) {
-        String url = "https://api.github.com/users/" + username;
+        
+        String url = "https://www.instagram.com/"+username+"hellion_op/?__a=1";
 
         try {
             URL urlForGetRequest = new URL(url);
