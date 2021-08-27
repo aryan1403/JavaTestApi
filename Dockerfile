@@ -4,4 +4,4 @@ COPY . .
 
 RUN mvn clean package
 
-CMD ["java", "-jar", "target/springrest-0.0.1-SNAPSHOT-jar-with-dependencies.jar"]
+CMD ["java", "-jar", "target/springrest-0.0.1-SNAPSHOT.jar"]
