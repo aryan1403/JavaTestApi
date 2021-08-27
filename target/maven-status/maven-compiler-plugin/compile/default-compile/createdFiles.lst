@@ -1,0 +1,6 @@
+com\example\springrest\DB\Course.class
+com\example\springrest\Controller\MyController.class
+com\example\springrest\SpringrestApplication.class
+com\example\springrest\DB\courseimpl.class
+com\example\springrest\Courses\course.class
+com\example\springrest\Courses\courses.class
