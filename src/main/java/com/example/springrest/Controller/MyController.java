@@ -47,4 +47,9 @@ public class MyController {
     public String joke(){
         return new IData().getJoke();
     }
+
+    @GetMapping("/memes")
+    public String memes() {
+        return new IData().getMemes();
+    }
 }
